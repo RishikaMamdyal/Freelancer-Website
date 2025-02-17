@@ -1,0 +1,501 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.googleapis.com/css?family=Vintage fonts');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Playfair Display');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Poppins,sans-serif;
+}
+/* #################################### Container-1 #################################### */
+.container-1{
+    width: 100%;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-1 .section-1{
+    width: 55%;
+    height: 100%;
+    background: #1a2e35;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 20px;
+    padding: 0 15%;
+    position: relative;
+}
+.container-1 .section-1 .header{
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 0 4%;
+    gap: 220px;
+}
+.container-1 .section-1 .header h1{
+    color: white;
+    font-family: 'Oswald';
+}
+.container-1 .section-1 .header .links{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+}
+.container-1 .section-1 .header .links a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+.container-1 .section-1 .header button{
+    width: 50px;
+    height: 30px;
+    margin-left: 500px;
+    background: transparent;
+    color: white;
+    outline: none;
+    border: 1px solid #1cbbb4;
+    cursor: pointer;
+    font-size: 15px;
+}
+.container-1 .section-1 h1{
+    font-size: 30px;
+    color: white;
+    font-family: 'Oswald';
+}
+.container-1 .section-1 p{
+    font-size: 12px;
+    color: white;
+}
+.container-1 .section-1 .action{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.container-1 .section-1 .action button{
+    width: 180px;
+    height: 50px;
+    font-size: 15px;
+    border-radius: 2px;
+    cursor: pointer;
+    outline: none;
+    transition: all ease-in 0.4s;
+}
+.container-1 .section-1 .action button:nth-child(1){
+    background: #ff4f5a;
+    color: white;
+    border: 1px solid #ff4f5a;
+}
+.container-1 .section-1 .action button:nth-child(1):hover{
+    background: transparent;
+}
+.container-1 .section-1 .action button:nth-child(2){
+    background: white;
+    color: #1a2e35;
+    border: 1px solid white;
+}
+.container-1 .section-1 .action button:nth-child(2):hover{
+    background: transparent;
+    color: white;
+}
+.container-1 .section-1 .move{
+    position: absolute;
+    bottom: -25px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px ;
+}
+.container-1 .section-1 .move button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    outline: none;
+    background: #1cbbb4;
+    cursor: pointer;
+    border: 1px solid #1cbbb4;
+    color: white;
+}
+.container-1 .section-1 .move button:hover{
+    background: #ff4f5a;
+    border: 1px solid #ff4f5a;
+}
+.container-1 .section-2{
+    width: 45%;
+    height: 100%;
+    background: #1cbbb4;
+    padding: 50px 5%;
+}
+.container-1 .section-2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+/* #################################### Container-2 #################################### */
+.container-2{
+    width: 100%;
+    height: 550px;
+    background: white;
+    padding: 90px 5%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.container-2 .part-1{
+    width: 40%;
+    height: 100%;
+}
+.container-2 .part-1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.container-2 .part-2{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 30px;
+}
+.container-2 .part-2 h1{
+    font-size: 35px;
+    color: black;
+    font-family: 'Oswald';
+}
+.container-2 .part-2 p{
+    font-size: 18px;
+    padding-right: 80px;
+}
+.container-2 .part-2 .action{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+}
+.container-2 .part-2 .action button{
+    width: 180px;
+    height: 50px;
+    font-size: 15px;
+    border-radius: 2px;
+    cursor: pointer;
+    outline: none;
+    transition: all ease-in 0.4s;
+}
+.container-2 .part-2 .action button:nth-child(1){
+    background: #ff4f5a;
+    color: white;
+    border: 1px solid #ff4f5a;
+}
+.container-2 .part-2 .action button:nth-child(2){
+    background: #1a2e35;
+    color: white;
+    border: 1px solid #1a2e35;
+}
+.container-2 .part-2 .action button:nth-child(1):hover{
+    background: white;
+    color: #ff4f5a;
+}
+.container-2 .part-2 .action button:nth-child(2):hover{
+    background: white;
+    color: #1a2e35;
+}
+/* #################################### Container-3 #################################### */
+.container-3{
+    width: 100%;
+    padding: 80px 10%;
+    background: #1cbbb4;
+}
+.container-3 h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Oswald';
+    margin: 20px 0;
+    color: white;
+    text-transform: uppercase;
+    position: relative;
+}
+.container-3 h1::after{
+    content: '';
+    position: absolute;
+    left: 520px;
+    bottom: -1px;
+    width: 14%;
+    height: 1px;
+    background: white;
+}
+.container-3 .grid{
+    width: 100%;
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-wrap: wrap;
+    gap: 60px 15px;
+}
+.container-3 .grid .items{
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: white;
+}
+.container-3 .grid .items img{
+    width: 100px;
+    height: 80px;
+    object-fit: contain;
+}
+.container-3 .grid .items h2{
+    font-size: 18px;
+}
+/* #################################### Container-4 #################################### */
+.container-4{
+    width: 100%;
+    padding: 50px 10%;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.container-4 .section-1 img{
+    width: 100%;
+    height: 400px;
+    object-fit: contain;
+}
+.container-4 h1{
+    font-size: 35px;
+    color: black;
+    font-family: 'Oswald';
+}
+.container-4 p{
+    font-size: 16px;
+    padding: 0 10px;
+}
+.container-4 button{
+    width: 180px;
+    height: 50px;
+    font-size: 15px;
+    background: #ff4f5a;
+    color: white;
+    border: 1px solid #ff4f5a;
+    border-radius: 2px;
+    cursor: pointer;
+    outline: none;
+    transition: all ease-in 0.4s;
+}
+.container-4 button:hover{
+    background: white;
+    color: #ff4f5a;
+}
+/* #################################### Container-5 #################################### */
+.container-5{
+    width: 100%;
+    height: 700px;
+    padding: 50px 10%;
+    background: white;
+}
+.container-5 h1{
+    text-align: start;
+    font-size: 35px;
+    color: black;
+    margin: 15px 0;
+    font-family: 'Oswald';
+}
+.container-5 .area-1{
+    width: 50%;
+    height: 550px; 
+    background: white;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 40px;
+}
+.container-5 img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.container-5 .area-1 .elements{
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    gap: 20px;
+    cursor: pointer;
+}
+.container-5 .area-1 .elements .items{
+    width: 90px;
+    height: 90px;
+    background: #1a2e35;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-5 .area-1 .elements:hover .items{
+    background: #1cbbb4;
+}
+.container-5 .area-1 .elements .content{
+    height: 80px;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 3px;
+}
+.container-5 .area-1 .elements .content p{
+    font-size: 20px;
+    font-weight: bold;
+    color: #ff4f5a ;
+}
+.container-5 .area-1 .elements .content h2{
+    font-size: 28px;
+    font-weight: bolder;
+}
+.container-5 .area-1 .elements .items img{
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+/* #################################### Container-6 #################################### */
+.container-6{
+    width: 100%;
+    padding: 50px 10%;
+    background: #1a2e35;
+}
+.container-6 .section-1{
+    width: 100%;
+    height: 50px;
+    padding: 60px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    color: white;
+}
+.container-6 .section-1 h1{
+    font-size: 35px;
+    font-family: 'Oswald';
+}
+.container-6 .section-1 .icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.container-6 .section-1 .icons i{
+    font-size: 30px;
+}
+.container-6 .section-2 {
+    width: 100%;
+    padding: 40px 0;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    gap: 40px;
+    color: white;
+}
+.container-6 .section-2 .elements{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 20px;
+}
+.container-6 .section-2 .elements h2{
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.container-6 .section-2 .elements ul li{
+    font-size: 15px;
+    padding: 2px 0;
+    cursor: pointer;
+    list-style: none;
+}
+.container-6 .section-2 .elements p{
+    font-size: 15px;
+}
+.container-6 .section-2 .elements .input-field{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 20px;
+}
+.container-6 .section-2 .elements .input-field input{
+    width: 100%;
+    height: 40px;
+    font-size: 16px;
+    padding: 10px 5%;
+    outline: none;
+}
+.container-6 .section-2 .elements .input-field button{
+    width: 60%;
+    height: 40px;
+    font-size: 15px;
+    text-transform: uppercase;
+    background: #ff4f5a;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+    outline: none;
+    transition: all ease-in 0.4s;
+}
+.container-6 .section-2 .elements .input-field button:hover{
+    background: transparent;
+    color: #ff4f5a;
+    border: 1px solid #ff4f5a;
+}
+.container-6 .section-3 {
+    width: 100%;
+    padding: 0 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.container-6 .section-3 .info{
+    width: 100%;
+    padding: 20px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    color: white;
+}
+.container-6 .section-3 .info i{
+    font-size: 30px;
+}
+.copy-right{
+    width: 100%;
+    height: 40px;
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    color: black;
+}
